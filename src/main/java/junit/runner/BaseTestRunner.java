@@ -235,7 +235,11 @@ public abstract class BaseTestRunner implements TestListener {
             setPreferences(new Properties(getPreferences()));
             getPreferences().load(is);
         } catch (IOException ignored) {
+            //commentocorrezione4
+            //deve esserci qualcosa qui dentro
         } catch (SecurityException ignored) {
+            //commentocorrezione4
+            //deve esserci qualcosa qui dentro
         } finally {
             try {
                 if (is != null) {
